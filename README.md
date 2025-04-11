@@ -46,7 +46,15 @@ Firstly we create a Resource Group in Microsoft Azure. Next we create a Windows 
 <img width="94" alt="image" src="https://github.com/user-attachments/assets/68b32c2f-9f91-4c5b-b2c7-4837cca2beb7" />
 </p>
 <p>
-Next we install Wireshark. In order to do so, Remote Desktop Connection must be utilized. Open Remote Desktop and enter the public IP address of the Windows 10 Virtual Machine. Open Microsoft Edge and install Wireshark from the Wireshark site. From within Wireshark, filter for ICMP traffic only. Retrieve the private IP address of the Linux VM and attempt to ping it from the Widnows 10 VM. Observe traffic in Wireshark.
+Next we install Wireshark. Open Microsoft Edge and install Wireshark from the Wireshark site.
+</p>
+<br />
+
+<p>
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/f1ce483d-3225-4988-9950-80ca73de24ce" />
+</p>
+<p>
+Now using Remote Desktop, connect to your Windows 10 Virtual Machine. From within Wireshark, filter for ICMP traffic only. Retrieve the private IP address of the Linux VM and attempt to ping it from the Widnows 10 VM. Observe traffic in Wireshark.
 </p>
 <br />
 
